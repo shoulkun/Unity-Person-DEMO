@@ -5,11 +5,11 @@
 
 #### 预览
 随机种子地图，使用BowyerWatson生成不规则三角网，再利用最小生成树算法，实现地图中各地图块的链接。
-![image](PreviewImage\关卡地图管理器.png)
-![image](PreviewImage\随机关卡地图预览.png)
+![image](https://github.com/shoulkun/Unity-Person-DEMO/blob/master/PreviewImage/关卡地图管理器.png)
+![image](https://github.com/shoulkun/Unity-Person-DEMO/blob/master/PreviewImage/随机关卡地图预览.png)
 简易敌人AI，利用Physics检测线避障，最近在研究如果使用DOTS系统优化大量敌人AI的性能。
-![image](PreviewImage\简易AI避障演示1.gif)
-![image](PreviewImage\简易AI避障演示2.gif)
+![image](https://github.com/shoulkun/Unity-Person-DEMO/blob/master/PreviewImage/简易AI避障演示1.gif)
+![image](https://github.com/shoulkun/Unity-Person-DEMO/blob/master/PreviewImage/简易AI避障演示2.gif)
 #### 安装教程
 1.  直接导入工程
 
