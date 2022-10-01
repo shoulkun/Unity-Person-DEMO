@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /// <summary>
-/// 关卡管理器
+/// 关卡地图管理器
 /// </summary>
 public class LevelManager : SingletonMonoBase<LevelManager>
 {

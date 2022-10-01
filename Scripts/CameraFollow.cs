@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : SingletonMonoBase<PlayerManager>
+public class CameraFollow : MonoBehaviour
 {
     //宝宝跟随的目标
     public Transform target;

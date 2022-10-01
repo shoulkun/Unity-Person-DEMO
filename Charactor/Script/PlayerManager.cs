@@ -14,7 +14,7 @@ public class PlayerManager : SingletonMonoBase<PlayerManager>
     [Tooltip("玩家控制器")]
     public GameObject playerControllerPrefab; // 本机玩家绑定的控制器预设
     [Tooltip("跟随相机")]
-    //public GameObject followCameraPrefab; // 本机玩家绑定的跟随相机预设
+    public GameObject followCameraPrefab; // 本机玩家绑定的跟随相机预设
     //[HideInInspector]
     public GameObject followCamera; // 本机玩家绑定的跟随相机
 
@@ -47,7 +47,7 @@ public class PlayerManager : SingletonMonoBase<PlayerManager>
 
         initPlayer();   // 生成角色
         
-        //followCamera = Instantiate(followCameraPrefab);   // 初始化跟随相机
+        followCamera = Instantiate(followCameraPrefab);   // 初始化跟随相机
         followCamera.GetComponent<CameraFollow>().target = playerList[me].transform;    // 绑定跟随相机
     }
 
