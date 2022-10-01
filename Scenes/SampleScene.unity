@@ -1749,10 +1749,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1166377083122560318, guid: 44bc97347b0c81449b1242254b029cd4,
+        type: 3}
+      propertyPath: EnemiesNumber
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1166377083122560319, guid: 44bc97347b0c81449b1242254b029cd4,
         type: 3}
       propertyPath: m_Name
       value: Manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166377083122560320, guid: 44bc97347b0c81449b1242254b029cd4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1166377083122560322, guid: 44bc97347b0c81449b1242254b029cd4,
         type: 3}
