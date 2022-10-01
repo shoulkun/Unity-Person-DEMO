@@ -10,7 +10,7 @@
 简易敌人AI，利用Physics检测线避障，最近在研究如果使用DOTS系统优化大量敌人AI的性能。  
 ![image](PreviewImage/SampleAIPreview1.gif)  
 简易AI避障GIF-1  
-![image](PreviewImage/SampleAIPreview1.gif)  
+![image](PreviewImage/SampleAIPreview2.gif)  
 简易AI避障GIF-2  
 
 #### 安装教程  
