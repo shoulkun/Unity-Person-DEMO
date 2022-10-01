@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143647976ad33d8419b917b84d1020c9, type: 3}
+  m_Name: GetDepthRender
+  m_EditorClassIdentifier: 
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
+      type: 3}
+  m_RendererFeatures:
+  - {fileID: 2868286588457376071}
+  m_RendererFeatureMap: 47d904937433ce27
+  m_UseNativeRenderPass: 0
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 2147483647
+--- !u!114 &2868286588457376071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf3e1cd2fb4f934890e5c54ce0f693d, type: 3}
+  m_Name: MaterialToRenderTexture
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 300
+    blitMaterial: {fileID: 2100000, guid: af1900ee82a9d6c4ebcd0cf87ea00adb, type: 2}
+    renderTexture: {fileID: 8400000, guid: 979d6794083ed7245a070c8fd90c38ab, type: 2}
